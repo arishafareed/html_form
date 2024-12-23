@@ -1,34 +1,28 @@
-div{
-    width: 200px;
-    height: 200px;
-    background-color: brown;
+.nav {
+    height: 90px;
 }
-div:hover{
-    background-color: green;
+
+.box {
+    padding: 15px 30px 15px 30px;
+
 }
-@media(width:700px){
-    div{
-        background-color: green;
-        font-size: 45px;
-    }
+
+.manage {
+    font-size: 70px;
 }
-@media(max-width:250px){
-    div{
-        background-color: red;
-    }
+
+.container {
+    background: linear-gradient(90deg, #C1DEE8 0%, #FBD9B9 100%);
+
 }
-@media(min-width:300px) and (max-width:400px){
-    div{
-        background-color: hotpink;
-    }
+
+.form-control {
+    height: 60px;
+    border-radius: 40px;
 }
-@media(min-width:400px) and (max-width:600px){
-     div{
-        background-color: darkorange;
-     }
+.btn2{
+    height: 60px;
+    border-radius: 50px;
+    background: #1F1F1F;
+    color: white;
 }
-  @media(width:600px){
-    div{
-        background-color: blue;
-    }
-  } 
